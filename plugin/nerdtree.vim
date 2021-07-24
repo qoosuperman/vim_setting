@@ -1,4 +1,4 @@
-nnoremap <silent> <C-b> :NERDTreeToggle<Enter>
+nnoremap <silent> <C-n> :NERDTreeToggle<Enter>
 let NERDTreeMinimalUI = 1
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 autocmd StdinReadPre * let s:std_in=1
