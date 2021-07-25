@@ -1,6 +1,12 @@
+inoremap jk <ESC>
+let mapleader = "'"
+
 set softtabstop=2
 set shiftwidth=2
 set backspace=indent,eol,start
+set hlsearch
+set ignorecase
+set incsearch
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-ruby/vim-ruby'
@@ -15,4 +21,5 @@ Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'preservim/tagbar'
 Plug 'mileszs/ack.vim'
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 call plug#end()

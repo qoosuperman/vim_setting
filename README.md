@@ -1,11 +1,24 @@
 # Anthony Chao's VIM setting
 
-## Settings
-If you'd like to adopt this setting, need to add a symlink `~/.vimrc` to the file `.vimrc` of this repo
-```bash
-> cd ~
-> ln -s <repo_path>/.vimrc .
 ```
+> git clone git@github.com:qoosuperman/vim_setting.git ~/.vim
+> ln -s ~/.vim/.vimrc ~/.vimrc
+```
+
+## Settings
+### Depensencies:
+- Ack: `brew install ack`
+- Instant Markdown: ref https://github.com/suan/vim-instant-markdown
+
 
 ## Customized setting
 customized setting would be put in the file `plugin/<plugin name>.vim`
+
+### Nerdtree
+- `control + n` to toggle nerdtree
+
+### Ack
+- `control + a` to do full text search
+
+### InstantMarkdownPreview
+- `' + c` to open markdown preview window
