@@ -7,6 +7,7 @@ set backspace=indent,eol,start
 set hlsearch
 set ignorecase
 set incsearch
+let g:snipMate = { 'snippet_version' : 1 }
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-ruby/vim-ruby'
