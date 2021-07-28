@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/anthony.chao/Documents/akatsuki/ishin-tool/config'
+let g:netrw_dirhist_5='/Users/anthony.chao/Documents/akatsuki/ishin-tool/bin'
+let g:netrw_dirhist_4='/Users/anthony.chao/Documents/akatsuki/ishin-tool/app'
+let g:netrw_dirhist_3='/Users/anthony.chao/Documents/akatsuki/ishin-tool/config'
+let g:netrw_dirhist_2='/Users/anthony.chao/Documents/akatsuki/ishin-tool/bin'
+let g:netrw_dirhist_1='/Users/anthony.chao/Documents/akatsuki/ishin-tool/config'
