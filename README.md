@@ -6,6 +6,14 @@
 ```
 
 ## Settings
+### On Mac
+on mac, in order to make copy / paste function on system clipboard, it's better to use macvim as default vim editor
+
+```
+> brew install macvim # or install by the link: https://macvim-dev.github.io/macvim/
+> alias vim='/Applications/MacVim.app/Contents/MacOS/Vim -gv'
+``` 
+
 ### Depensencies:
 - Ack: `brew install ack`
 - Instant Markdown: ref https://github.com/suan/vim-instant-markdown
